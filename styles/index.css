@@ -1,3 +1,20 @@
+:root {
+  /*Colors*/
+  --c-background: #e5e5e5;
+  --c-white: #ffffff;
+  --c-blue: #2196e3;
+  --c-light-blue: #2196f3;
+  --c-black: #000000;
+  --c-dark: #212121;
+  --c-boulder: #757575;
+  --c-gray: #afb1b8;
+  --c-colordesc: #2f303a;
+  --c-colorteam: #f5f4fa;
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -8,6 +25,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 /*=======header======*/
 
 body {
@@ -38,7 +56,6 @@ button {
 
 .header__content {
   display: flex;
-
   align-items: center;
 }
 
@@ -62,6 +79,7 @@ button {
 .menu_list_nav li:last-child {
   margin-right: 0;
 }
+
 .contacts {
   margin-left: auto;
 }
@@ -77,6 +95,7 @@ button {
 .list_contacts li:last-child {
   margin-right: 0;
 }
+
 .logo {
   margin-right: 93px;
 }
@@ -148,11 +167,15 @@ button {
 .links_contact:focus {
   color: var(--c-light-blue);
 }
+
 /*======= end header======*/
+
 /*========components========*/
+
 a {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
@@ -160,28 +183,15 @@ ul li {
 img {
   display: block;
 }
-:root {
-  /*Colors*/
-  --c-background: #e5e5e5;
-  --c-white: #ffffff;
-  --c-blue: #2196e3;
-  --c-light-blue: #2196f3;
-  --c-black: #000000;
-  --c-dark: #212121;
-  --c-boulder: #757575;
-  --c-gray: #afb1b8;
-  --c-colordesc: #2f303a;
-  --c-colorteam: #f5f4fa;
-  /* Fonts */
-  --font-roboto: "Roboto", sans-serif;
-  --font-raleway: "Raleway", sans-serif;
-}
+
 /*========end components========*/
+
 /*==========Button==========*/
+
 .hero {
   position: relative;
   background-color: var(--c-colordesc);
-  background-image: url(../img_4hw/Img.jpg);
+  background-image: url(../images/img\ Overlay.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -234,8 +244,11 @@ img {
 .description_btn:hover {
   background-color: #188ce8;
 }
+
 /*==========end Button==========*/
+
 /*==========About us==========*/
+
 .about {
   padding-bottom: 0;
 }
@@ -250,6 +263,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
 .svg__img {
   display: flex;
   max-width: 270px;
@@ -279,21 +293,26 @@ img {
   font-weight: 400;
   max-width: 270px;
 }
+
 /*==========end About us==========*/
+
 /*==========WORK==========*/
+
 .list_title {
   display: flex;
   margin-left: -30px;
 }
+
 .list_title li {
   margin-left: 30px;
-  flex-basis: calc((100% / 3)-30px);
+  flex-basis: calc((100% / 3) - 30px);
   position: relative;
 }
 
 .working_list_title {
   text-align: center;
 }
+
 .working_list_title {
   color: var(--c-dark);
   font-weight: 700;
@@ -318,7 +337,9 @@ img {
   color: var(--c-white);
   bottom: 0px;
 }
+
 /*==========end WORK==========*/
+
 /*==========Team==========*/
 
 .our_team_title_list {
@@ -332,6 +353,7 @@ img {
   flex-basis: calc((100% - 30px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -351,6 +373,7 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+
 .icon__social_links {
   display: flex;
   justify-content: center;
@@ -376,7 +399,7 @@ img {
   color: var(--c-gray);
   width: 44px;
   height: 44px;
-  transition: color, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon__social_links a svg {
@@ -408,7 +431,9 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
+
 /*==========end TEAM==========*/
+
 /*=======FOOTER=======*/
 
 .logo_2_footer {
@@ -418,9 +443,11 @@ img {
   font-family: var(--font-raleway);
   line-height: 1.38;
 }
+
 .list_footer li {
   padding-bottom: 9px;
 }
+
 .list_footer li:last-child {
   padding-bottom: 0;
 }
@@ -437,9 +464,11 @@ img {
   background-color: var(--c-colordesc);
   padding: 60px;
 }
+
 .footer_link {
   display: flex;
 }
+
 .links__title {
   color: var(--c-white);
   font-weight: 700;
@@ -448,6 +477,7 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
+
 .social_link_footer {
   margin-left: 70px;
   padding-top: 12px;
@@ -458,12 +488,15 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 .list__link__footer li {
   margin-right: 10px;
 }
+
 .list__link__footer li:last-child {
   margin-right: 0;
 }
+
 .list__link__footer a {
   display: flex;
   border-radius: 50%;
@@ -473,8 +506,9 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
-  transition: color, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .list__link__footer a:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -483,7 +517,9 @@ img {
 }
 
 /*=======end FOOTER=======*/
+
 /*======Portofolio======*/
+
 .filter_section {
   background-color: var(--c-white);
   padding-bottom: 94px;
@@ -494,9 +530,11 @@ img {
   justify-content: center;
   margin-bottom: 56px;
 }
+
 .list__button li {
   margin-right: 8px;
 }
+
 .button_style {
   color: var(--c-dark);
   background-color: #f5f4fa;
@@ -508,7 +546,7 @@ img {
   border: none;
   padding: 6px 22px;
   cursor: pointer;
-  transition: color, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button_style:hover,
@@ -533,6 +571,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
 .poroject_list {
   background-color: var(--c-white);
   margin-right: 30px;
@@ -588,6 +627,7 @@ img {
 }
 
 /*======Portofolio======*/
+
 /* =======partners====== */
 
 .partners__list {
@@ -595,7 +635,6 @@ img {
   justify-content: flex-start;
   align-items: center;
   margin-right: -30px;
- 
 }
 
 .partners__list li {
@@ -608,7 +647,8 @@ img {
   height: 90px;
   margin-right: 30px;
   color: var(--c-gray);
-  transition: color, background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners__list li:hover {
@@ -632,8 +672,11 @@ img {
   margin-bottom: 50px;
   text-align: center;
 }
+
 /* =======partners====== */
+
 /* =======modal======= */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -667,6 +710,7 @@ img {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.7);
 }
+
 .modal__close-button {
   position: absolute;
   top: 8px;
